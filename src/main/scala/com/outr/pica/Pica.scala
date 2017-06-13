@@ -16,3 +16,8 @@ class Pica extends js.Object {
 
   def toBlob(canvas: html.Canvas, mimeType: String, quality: Double = js.native): js.Promise[Blob] = js.native
 }
+
+object Pica {
+  def apply(): Pica = js.Dynamic.global.pica().asInstanceOf[Pica]
+  def apply(options: PicaOptions): Pica = js.Dynamic.global.pica(options).asInstanceOf[Pica]
+}
