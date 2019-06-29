@@ -1,6 +1,6 @@
 name := "pica.scala.js"
 organization := "com.outr"
-version := "3.0.5_1-SNAPSHOT"
+version := "3.0.5_1"
 
 scalaVersion := "2.13.0"
 crossScalaVersions := List("2.13.0", "2.12.8", "2.11.12")
