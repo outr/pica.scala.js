@@ -1,9 +1,7 @@
 package com.outr.pica
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
 
-@ScalaJSDefined
 trait ResizeOptions extends js.Object {
   var quality: js.UndefOr[Double] = js.undefined
   var alpha: js.UndefOr[Boolean] = js.undefined
